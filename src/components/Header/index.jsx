@@ -21,6 +21,7 @@ const Header = () => {
         </div>
 
         <div className="flex items-center gap-10 header-right">
+          {/* Write */}
           <div className="flex">
             <svg
               width="24"
@@ -42,6 +43,7 @@ const Header = () => {
             <span className="pl-2">Write</span>
           </div>
 
+          {/* Notification */}
           <button>
             {/* <svg
               width="24"
@@ -82,6 +84,7 @@ const Header = () => {
             </svg>
           </button>
 
+          {/* Profile */}
           <div className="relative w-10 h-10 overflow-hidden rounded-full">
             <img
               src="https://miro.medium.com/v2/resize:fill:100:100/0*DTMS5nh2NwsBnGMm"
